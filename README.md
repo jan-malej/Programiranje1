@@ -6,6 +6,7 @@ Pri vsaki restavraciji bom zajel osnovne informacije:
 - število ocen,
 - tip kuhinje (npr. italijanska),
 - cenovni razpon od $ do $$$$$.
+
 Dodatno pa še:
 - ali je na Michelinovem seznamu,
 - ali omogoča rezervacije,
