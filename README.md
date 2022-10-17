@@ -1,5 +1,5 @@
 # Restavracije v Chicagu
-Na Trip Advisor spletni strani bom analiziral okoli 6200 restavracij v Chicagu (https://www.tripadvisor.com/Restaurants-g35805-Chicago_Illinois.html).
+Na Trip Advisor spletni strani bom analiziral okoli 6200 restavracij v Chicagu. Izbrani parametri so 'restaurants' (Establishment Type) in 'lunch' ter 'dinner' (Meals) (https://www.tripadvisor.com/Restaurants-g35805-Chicago_Illinois.html).
 Pri vsaki restavraciji bom zajel osnovne informacije:
 - ime,
 - oceno med 1 in 5,
