@@ -3,35 +3,23 @@ import re
 import os
 import requests
 
-IME_DATOTEKE = 'raw_html.txt' 
+IME_DATOTEKE = 'raw_html2.txt' 
 PATH = 'Datoteke'
 URL ='https://www.tripadvisor.com/RestaurantSearch-g35805-oa00-Chicago_Illinois.html#EATERY_LIST_CONTENTS'
 
-def spl_stran_v_string(url):
-    try:
-        r = requests.get(url)
-    except requests.exceptions.ConnectionError:  
-        print('Ni povezave.')
-        return None
-    if r.status_code == requests.codes.ok:
-        return r.text
-    else:
-        print('Napaka.')
-        return None
+def sestavi_url(n):
+    n *= 3
+    url = f'https://www.tripadvisor.com/RestaurantSearch-g35805-oa{n}0-Chicago_Illinois.html#EATERY_LIST_CONTENTS'
+    return url
 
-def string_to_datoteka(niz):
-    os.makedirs(PATH, exist_ok=True)
-    path = os.path.join(PATH, IME_DATOTEKE)
-    with open(path, 'w', encoding='utf-8') as file_out:
-        file_out.write(niz)
-    return None
+def generiraj_url_naslove(n):
+    for i in range(n):
+        yield sestavi_url(i)
 
-def shrani_stran():
-    niz = spl_stran_v_string(URL)
-    string_to_datoteka(niz)
-    return None
+#orodja.shrani_spletno_stran(URL, IME_DATOTEKE, vsili_prenos=True)
+for url in generiraj_url_naslove(2):
+    orodja.shrani_spletno_stran(url, IME_DATOTEKE, vsili_prenos=True)
 
-shrani_stran()
 
 
 
