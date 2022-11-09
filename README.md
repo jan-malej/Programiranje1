@@ -8,9 +8,9 @@ Iz LEGO spletne trgovine (https://www.lego.com/en-gb/categories/all-sets) bom po
 
 Moje hipoteze so:
 - večina izdelkov je na zalogi,
-- povprečna cena izdelka je 150 funtov
-- povprečna ocena izdelkov je višja od 4.
-- izdelki, ki jih ni na zalogi so povprečno dražji in bolje ocenjeni od ostalih
+- povprečna cena izdelka je 150€,
+- povprečna ocena izdelkov je višja od 4,
+- izdelki, ki jih ni na zalogi so povprečno dražji in bolje ocenjeni od ostalih.
 
 V datoteki `lego_zajem.py` je program, s katerim sem zajel podatke. Uporabil sem tudi nekaj funkcij iz `orodja.py`.
 V mapi Datoteke se nahajajo 3 datoteke:
