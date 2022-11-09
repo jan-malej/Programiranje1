@@ -1,8 +1,6 @@
 import orodja
 import re
 
-URL = 'https://www.lego.com/en-gb/categories/all-sets?page=2'
-IME_DATOTEKE = 'nov_html.txt'
 IME_CSV = 'Datoteke/podatki.csv'
 
 def sestavi_url(n):
