@@ -127,3 +127,7 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+
+Datoteke/*.txt
+!Datoteke/lego_html_stran2.txt
+!Datoteke/lego_html_stran3.txt
