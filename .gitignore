@@ -131,3 +131,5 @@ dmypy.json
 Datoteke/*.txt
 !Datoteke/lego_html_stran2.txt
 !Datoteke/lego_html_stran3.txt
+
+restavracije_zajem.py
