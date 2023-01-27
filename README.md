@@ -16,3 +16,5 @@ V datoteki `lego_zajem.py` je program, s katerim sem zajel podatke. Uporabil sem
 V mapi Datoteke se nahajajo 3 datoteke:
 - dve .txt, v katerih je vzorec "neparsane" kode iz spletnega naslova, ni pa to celotna koda, saj bi bilo le-te preveč,
 - `podatki.csv`, kjer sem prej opisane zajete podatke zbral. V stolpcu 'zaloga' so logične vrednosti true/false, ki povejo ali je izdelek na zalogi. Cene izdelkov so navedene v centih.
+
+V datoteki `analiza.ipynb` so pridobljeni podatki analizirani, zraven pa so podani tudi kratki opisi dobljenih rezultatov.
